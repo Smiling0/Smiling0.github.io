@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+
+		.navigation{align-content: center;
+					width: 1000px;
+					height: 3100px;
+					margin: 10px auto;
+					background: #FFFFFF;
+					padding: 10px}/*大框*/
+		nav {display:table;
+		box-shadow:0px 0px 0px rgba(255,255,255,1.00);
+		margin: 0 auto	;margin-top:-62px
+		}
+	
+		/*<!--一级标题-->*/
+		ul {margin:0;
+			padding:0;
+			list-style:none;}
+	
+		/*	<!--一级悬停标题-->*/
+		ul li:hover > ul {opacity:1;
+					top:100%;
+					visibility:visible;}
+		ul li {float:left;
+			position:relative;
+			background-color:rgba(255,255,255,1.00);
+			cursor: pointer;border:9px solid rgba(0,0,0,1.00);}
+		ul a {text-decoration:none;
+			display:block;
+			color:black;
+			padding:10px 15px;
+			width:9.5em;
+			text-align:center;
+			font-family: 'Open Sans', sans-serif;
+			text-shadow: 0px 0px 0px rgba(0,0,0,.2);border:rgba(3,3,3,1.00) }
+
+		/*<!--一级悬停标题-->*/
+		ul li:hover { background-color:rgba(211,209,209,1.00);}
+
+		ul li a:hover {background-color:rgba(211,209,209,1.00);}
+		li{text-align: center}	
+		.divN{margin-top:42px;}/*导航*/
+		.bk1{width: 100%;}
+		
+	#div1{position:relative;
+			   margin: 20px 0px 20px 0px;
+			   width:1000px;
+			   height:500px;
+			   overflow:hidden;}
+		
+  		#div2{position:absolute;}
+		
+  		#div2 li{ float:left;
+			list-style-type:none;
+			padding:0px;
+			z-index: 2;
+			border: none;}
+		
+ 		img{border:none;}
+		
+  		#div2 li a:hover{top:-10px;}
+		
+  		a{position:relative;}/*图片滑动效果*/
+		.move{width: 750px;
+		 	  height: 500px;}
+		
+		
+		.plate{border: 3px dotted #261725;
+			   width: 1000px;
+			   height: 1700px;
+			   padding: 10px;
+			   margin: 50px 0px 0px -10px;
+			   position: absolute;}/*第一板块*/
+		
+		.title{align-content: center;
+			   text-align: center;
+			   font-family:"宋体";
+			   font-size: 20px;
+			   letter-spacing: 1px;
+			   padding: 10px 10px 10px 10px;
+			   line-height: 1.5px;
+			   color: #A3ABC0;
+			   position: absolute;
+			   margin:-10px 0px 0px -5px;
+			   width: 1000px;
+			   height: 40px;
+			   background: #9BDDD6;}/*主标题样式*/
+		
+		.word{align-content: center;
+			  text-align: justify;
+			  font-family: "华文仿宋";
+			  font-size: 20px;
+			  display:inline-block;
+			  border-bottom: 5px double #E8d169;
+			  letter-spacing: 1px;
+			  line-height: 1.5px;
+			  padding: 10px;
+			  position: absolute;
+			  margin:60px 0px 0px 0px;
+			   }/*小标题一*/
+		
+		.data{margin: 120px 0px 0px 0px;
+			 position: absolute;}/*2020年数据图位置*/
+		
+		.example{align-content: center;
+				 margin: 180px 0px 0px 320px;
+				 position: absolute;
+				 font-family: "华文仿宋";
+				 font-size: 20px;
+			 	 letter-spacing: 0.5px;
+				 line-height: inherit;
+				 padding: 10px;
+				 background:#E6EAF2; 
+				 border:3px solid #A3ABC0;}/*2020年例子*/
+		
+		.line{width: 1000px;
+			  height: 3px;
+			  border:2px dashed #261725;
+			  margin: 480px 0px 0px 0px;
+			  position: absolute; }/*2020分割线*/
+		
+		.graph{margin: 500px 0px 0px 0px;
+			   position: absolute;}/*2019年数据图位置*/
+		
+		
+		.script{align-content: center;
+				margin: 570px 0px 0px 320px;
+				position: absolute;
+				font-family: "华文仿宋";
+				font-size: 25px;
+			 	letter-spacing: 0.5px;
+				line-height: inherit;
+				padding: 10px;
+				background:#E6EAF2; 
+				border:3px solid #A3ABC0;
+				width: 650px;}/*2019例子*/
+		
+		.division{width: 1000px;
+			  	  height: 3px;
+			  	  border:2px dashed #261725;
+			  	  margin: 880px 0px 0px 0px;
+			  	  position: absolute;}/*2019分割线*/
+		
+		.picture{margin: 900px 0px 0px 0px;
+			  	 position: absolute;}/*2018年数据图位置*/
+		
+		.character{align-content: center;
+				   margin: 1000px 0px 0px 320px;
+				   position: absolute;
+				   font-family: "华文仿宋";
+				   font-size: 20px;
+				   font-weight: bolder;
+			 	   letter-spacing: 0.5px;
+				   line-height: inherit;
+				   padding: 10px;
+				   width: 650px;
+				   background:#E6EAF2; 
+				   border:3px solid #A3ABC0;}/*2018年例子*/
+		
+		.seperator{width: 1000px;
+			  	   height: 3px;
+			  	   border:2px dashed #261725;
+			  	   margin: 1280px 0px 0px 0px;
+			  	   position: absolute;}/*2018分割线*/
+		
+		.plot{margin: 1300px 0px 0px 0px;
+			  position: absolute;}/*2017数据图位置*/
+		
+		.writing{align-content: center;
+				 margin: 1400px 0px 0px 320px;
+				 position: absolute;
+				 font-family: "华文仿宋";
+				 font-size: 20px;
+				 font-weight: bolder;
+			 	 letter-spacing: 0.5px;
+				 line-height: inherit;
+				 padding: 10px;
+				 width: 650px;
+				 background:#E6EAF2; 
+				 border:3px solid #A3ABC0;}/*2017例子*/
+		
+		
+		.headline{align-content: center;
+			 	 text-align: justify;
+			  	 font-family: "华文仿宋";
+			  	 font-size: 30px;
+				 font-weight: bolder;
+				 display:inline-block;
+				 border-bottom: 5px double #E8d169;
+				 letter-spacing: 1px;
+			 	 line-height: 1.5px;
+				 padding: 10px;
+			  	 position: absolute;
+			  	 margin:1790px 0px 0px 0px;}/*第二个小标题*/
+		
+		
+	.fiction{position: absolute;
+				 margin: 1900px 0px 0px 0px;}/*科幻图片位置*/
+		.science{position: absolute;
+				 margin: 2460px 0px 0px 0px;}/*科幻数据图位置*/
+		.language{position: absolute;
+				 margin: 2400px 0px 0px 520px;
+				 width: 480px;
+				 height: 300px;
+				 font-family:"华文仿宋";
+				 font-size: 20px;
+				 letter-spacing:0.5px;
+				 line-height: inherit;
+				 font-weight: bolder;
+				 text-align: justify;
+				 }
+		
+
+		.animation{margin:  2850px 0px 0px 0px;
+				   position: absolute;}/*国漫图片位置*/
+		.comic{margin:3410px 0px 0px 0px;
+			   position: absolute}/*动漫数据图*/
+		.anime{margin:3350px 0px 0px 520px;
+			   position: absolute;
+			   width: 480px;
+		       height: 300px;
+			   font-family:"华文仿宋";
+			   font-size: 20px;
+			   letter-spacing:0.5px;
+			   line-height: inherit;
+			   font-weight: bolder;
+			   text-align: justify;}
+
+		.comdy{margin: 3800px 0px 0px 0px;
+			   position: absolute;
+			   }/*喜剧板块位置*/
+		.fun{margin: 4420px 0px 0px 0px;
+			 position: absolute;}/*喜剧数据图*/
+
+		.amuse{margin:4370px 0px 0px 520px;
+			   position: absolute;
+			   width: 480px;
+		       height: 300px;
+			   font-family:"华文仿宋";
+			   font-size: 20px;
+			   letter-spacing:0.5px;
+			   line-height: inherit;
+			   font-weight: bolder;
+			   text-align: justify;}
+		
+		.theme{margin: 4820px 0px 0px 0px;
+			   position: absolute;}/*主旋律2*/
+		.country{margin: 5400px 0px 0px 0px;
+			   position: absolute;}
+		.patriotic{margin:5350px 0px 0px 520px;
+			  	   position: absolute;
+			   	   width: 480px;
+		           height: 300px;
+			       font-family:"华文仿宋";
+			       font-size: 20px;
+			       letter-spacing:0.5px;
+			       line-height: inherit;
+			       font-weight: bolder;
+			       text-align: justify;}

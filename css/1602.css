@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+body{ 
+   margin: 0 auto;   
+   background-image:url("../images/798a8a89391307b96be15cd4dfae35e9.jpeg")}   
+		nav {display:table;
+		box-shadow:0px 0px 0px rgba(255,255,255,1.00);
+		margin: 0 auto	;
+		}
+	
+		/*<!--一级标题-->*/
+		ul {margin:0;
+			padding:0;
+			list-style:none;}
+	
+		/*	<!--一级悬停标题-->*/
+		ul li:hover > ul {opacity:1;
+					top:100%;
+					visibility:visible;}
+		ul li {float:left;
+			position:relative;
+			background-color:rgba(255,255,255,1.00);
+			cursor: pointer;border:9px solid rgba(0,0,0,1.00);}
+		ul a {text-decoration:none;
+			display:block;
+			color:black;
+			padding:10px 15px;
+			width:9.5em;
+			text-align:center;
+			font-family: 'Open Sans', sans-serif;
+			text-shadow: 0px 0px 0px rgba(0,0,0,.2);border:rgba(3,3,3,1.00) }
+
+		/*<!--一级悬停标题-->*/
+		ul li:hover { background-color:rgba(211,209,209,1.00);}
+
+		ul li a:hover {background-color:rgba(211,209,209,1.00);}
+		li{text-align: center}	
+		.divN{margin-top:-300px;margin:0 auto}
+		
+		
+	#login{  
+     top: 50%;   
+     left:50%;       
+	  width: 300px;   
+     height: 300px; 
+	margin: 0 auto
+ }    
+#login h1{color:rgba(81,81,81,1.00);   
+       letter-spacing: 1px;   
+     text-align: center; 
+	  font-size: 2em;   
+     margin: 0.67px 0;  
+ } 
+#login button{align-content: center;
+		color: black;
+	  width: 100px;   
+     min-height: 20px;   
+     display: block;   
+     background-color:rgba(23,77,112,1.00);   
+     border: 1px solid rgba(23,77,112,1.00);   
+     padding: 9px 14px;
+     font-size: 15px;   
+     line-height: normal;   
+     border-radius: 3px;   
+     margin: 0 100px 0 ;  
+} 
+.forget{text-align: center;
+		font-size: 13px;
+		margin: 0px -100px 0px 100px
+		}
+.register{text-align: center;
+		font-size: 13px;
+		margin: 0px 100px -15px -100px
+		}
+ input{width: 278px;   
+     height: 18px;   
+     margin-bottom: 10px;   
+     outline: none;   
+     padding: 10px;   
+     font-size: 13px;     
+     border: 1px  solid  rgba(152,152,152,1.00);   
+     border-radius: 4px;   
+     }  
+footer{					
+		  height: 70px;
+		  background:rgba(240,240,240,0.86);
+		  clear: both;
+		  text-align: center;
+		align-content: center;
+	margin-top: 207px}

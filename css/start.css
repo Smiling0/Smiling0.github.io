@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+		nav {display:table;
+		box-shadow:0px 0px 0px rgba(255,255,255,1.00);
+		margin: 0 auto	;
+		}
+	
+		/*<!--一级标题-->*/
+		ul {margin:0;
+			padding:0;
+			list-style:none;}
+	
+		/*	<!--一级悬停标题-->*/
+		ul li:hover > ul {opacity:1;
+					top:100%;
+					visibility:visible;}
+		ul li {float:left;
+			position:relative;
+			background-color:rgba(255,255,255,1.00);
+			cursor: pointer;border:9px solid rgba(0,0,0,1.00);}
+		ul a {text-decoration:none;
+			display:block;
+			color:black;
+			padding:10px 15px;
+			width:9.5em;
+			text-align:center;
+			font-family: 'Open Sans', sans-serif;
+			text-shadow: 0px 0px 0px rgba(0,0,0,.2);border:rgba(3,3,3,1.00) }
+
+		/*<!--一级悬停标题-->*/
+		ul li:hover { background-color:rgba(211,209,209,1.00);}
+
+		ul li a:hover {background-color:rgba(211,209,209,1.00);}
+		li{text-align: center}
+		body{ 
+		margin: 0 auto;}   
+		.div{width:1000px;margin:0 auto;}
+		/*一级标题设置*/
+		h1{font-family: "宋体";text-align: center;font-size: 35px;letter-spacing: 5px;}
+		/*二级标题设置*/
+		h2{font-family:"楷体";font-size: 30px;letter-spacing: 3px;color:rgba(106,119,145,1.00);text-align: left;height: 50px;background-color: white;}
+		/*三级标题*/
+		h3{font-family:"华文新魏";font-size: 24px;letter-spacing: 2px;color:rgba(26,25,25,0.78);}
+		/*第一张图表设置*/
+		.chartO{width:450px;margin-left: 10px;margin-top: -17px}
+		/*第一段文字位置设置*/
+		.boxO{width: 325px;float: right;margin-top:90px;margin-right: 50px;}
+		/*所有段落文字设置*/
+		p{font-family:"华文仿宋";font-size: 18px;letter-spacing: 5px;color:#040404;}
+		/*第二张图表设置*/
+		.chartT{width: 400px;height: 290px;margin-left: 34px}
+		/*第二部分左边布局设置*/
+		.boxT{width: 475px;float: left;background-color:rgba(137,155,177,1.00)}
+		/*第三张图表设置*/
+		.charH{width: 450px;;margin-top: 22px;margin-left: 12px}
+		/*第二部分右边布局设置*/
+		.boxH{width: 475px;float: right;background-color:rgba(137,155,177,1.00)}
+		/*第二部分文字样式*/
+		.paragraphS{font-family:"华文仿宋";font-size: 18px;letter-spacing: 5px;color:#040404;text-indent: 2em;}
+		/*第三部分布局设置*/
+		.boxF{margin-top:700px ;}
+		/*第四张图表设置*/
+		.chartF{width: 700px;margin-left: 150px }
+		/*第一部分背景图设置*/
+		.divO{background-image:url("../images/bk3.jpg");}
+		/*第二部分背景颜色设置*/
+		.divT{background-color: rgba(110,136,161,1.00) }
